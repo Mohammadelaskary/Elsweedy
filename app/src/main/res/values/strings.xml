@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CountingApp</string>
+    <string name="general_curtomer">General Curtomer</string>
+    <string name="general_customer">General customer</string>
+    <string name="lenoi_customer">Lenoi customer</string>
+    <string name="delete_pallets">Delete pallets</string>
+    <string name="delete_pallet">Delete pallet</string>
+    <string name="reset_database">Reset database</string>
+    <string name="export_excel_sheet">Export excel sheet</string>
+    <string name="error_in_clearing_data">Error in clearing data!</string>
+    <string name="cleared_successfully">Cleared successfully</string>
+    <string name="activity_intent_filter_action">com.zebra.datacapture1.ACTION</string>
+    <string name="activity_action_from_service">com.zebra.datacapture1.service.ACTION</string>
+    <string name="datawedge_intent_key_source">com.symbol.datawedge.source</string>
+    <string name="datawedge_intent_key_label_type">com.symbol.datawedge.label_type</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+    <string name="pallet_code">Pallet code</string>
+    <string name="box_code">Box code</string>
+    <string name="save_pallet">Save pallet</string>
+    <string name="clear_fields">Clear fields</string>
+    <string name="error">Something went wrong, Please try again!</string>
+    <string name="ok">Ok</string>
+    <string name="box_code_added_before">Box code added before!</string>
+    <string name="saved_successfully">Saved successfully</string>
+    <string name="please_scan_pallet_code">Please scan pallet code!</string>
+    <string name="please_scan_boxes">Please scan boxes!</string>
+    <string name="deleted_successfully">Deleted successfully</string>
+    <string name="wrong_pallet_code">Wrong pallet code!</string>
+    <string name="warning">Warning</string>
+    <string name="are_you_sure_that_you_want_to_delete_all_data_from_database">Are you sure that you want to delete all data from database?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="export_general_customer">Export general customer</string>
+    <string name="export_lenoi_customer">Export Lenoi customer</string>
+    <string name="delete_whole_pallet">Delete whole pallet</string>
+    <string name="are_you_sure_you_want_to_delete_that_box">Are you sure you want to delete that box?</string>
+    <string name="are_you_sure_to_delete_scanned_pallet">Are you sure to delete scanned pallet?</string>
+    <string name="export_custom">Export custom</string>
+    <string name="main_menu">Main menu</string>
+    <string name="add_pallets">Add pallets</string>
+    <string name="delete_pallet_box">Delete pallet-Box</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="there_are_an_not_exported_data_are_you_sure_to_clear_database">There are an not exported data, Are you sure to clear database?</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ui.MainMenu.MainMenuFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/general_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/general_customer"
+        app:layout_constraintBottom_toTopOf="@+id/lenoi_customer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/lenoi_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lenoi_customer"
+        app:layout_constraintBottom_toTopOf="@+id/delete_pallet"
+        app:layout_constraintTop_toBottomOf="@+id/general_customer"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/delete_pallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_pallet"
+        android:backgroundTint="#883535"
+        app:layout_constraintBottom_toTopOf="@+id/reset_database"
+        app:layout_constraintTop_toBottomOf="@+id/lenoi_customer"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/reset_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_database"
+        android:backgroundTint="#EA1010"
+        app:layout_constraintBottom_toTopOf="@+id/export_excell_sheet"
+        app:layout_constraintTop_toBottomOf="@+id/delete_pallet"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/export_excell_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/export_excel_sheet"
+        android:backgroundTint="#019F01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reset_database"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

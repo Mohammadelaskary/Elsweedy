@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenuFragment">
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.example.scanapp4.Ui.MainMenu.MainMenuFragment"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_addNewPalletsFragment"
+            app:destination="@id/addNewPalletsFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_deletePalletFragment"
+            app:destination="@id/deletePalletFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewPalletsFragment"
+        android:name="com.example.scanapp4.Ui.AddPallets.AddNewPalletsFragment"
+        android:label="fragment_add_new_pallets"
+        tools:layout="@layout/fragment_add_new_pallets" />
+    <fragment
+        android:id="@+id/deletePalletFragment"
+        android:name="com.example.scanapp4.Ui.DeletePallet.DeletePalletFragment"
+        android:label="fragment_delete_pallet"
+        tools:layout="@layout/fragment_delete_pallet" />
+</navigation>
